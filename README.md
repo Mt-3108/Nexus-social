@@ -1,16 +1,59 @@
-# React + Vite
+# Projeto React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Como executar o projeto
 
-Currently, two official plugins are available:
+1. Clone este repositório:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+```bash
+git clone https://github.com/Mt-3108/Nexus-social.git
+```
 
-## React Compiler
+2. Acesse a pasta do projeto:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```bash
+cd nome-do-projeto
+```
 
-## Expanding the ESLint configuration
+3. Instale as dependências:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm install
+```
+
+4. Inicie o servidor de desenvolvimento:
+
+```bash
+npm run dev
+```
+
+5. Abra o link exibido no terminal no navegador (normalmente):
+
+```
+http://localhost:5173/
+```
+
+## Visualização Mobile
+
+Para visualizar o projeto na resolução mobile utilizada no desenvolvimento:
+
+1. Abra o **Inspecionar Elemento** do navegador (`F12` ou `Ctrl + Shift + I`);
+2. Ative o modo responsivo (**Toggle Device Toolbar**);
+3. Defina a resolução personalizada:
+
+```
+Largura: 1170px
+Altura: 2532px
+```
+
+Essa resolução corresponde ao formato mobile utilizado para testar a interface.
+
+## Tecnologias utilizadas
+
+- React
+- Vite
+- CSS / Tailwind CSS (caso utilizado)
+- JavaScript
+
+## Observações
+
+O projeto está sendo desenvolvido inicialmente com foco em uma experiência mobile, portanto recomenda-se utilizar a resolução indicada para a visualização da interface.
