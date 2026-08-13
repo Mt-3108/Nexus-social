@@ -1,13 +1,9 @@
-
-
 const Navbar = () => {
   return (
-    <div className="bg-white h-20">
-        <input type="text"
-        
-        />
+    <div className="h-20 flex justify-center items-center text-center">
+      <input className="bg-white  " type="text" />
     </div>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
