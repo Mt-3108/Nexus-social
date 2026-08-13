@@ -11,7 +11,7 @@ function App() {
         <div className="relative min-h-screen overflow-hidden bg-[#000]">
           {/* Luz roxa */}
           <motion.div
-            className="absolute top-10 left-1/2 -translate-x-1/2 h-[700px] w-[700px] rounded-full bg-violet-500/30 blur-[170px]"
+            className="pointer-events-none absolute top-10 left-1/2 -translate-x-1/2 h-[700px] w-[700px] rounded-full bg-violet-500/30 blur-[170px]"
             animate={{
               x: [0, 20, -30, 0],
               y: [0, 30, -20, 0],
@@ -27,7 +27,7 @@ function App() {
           {/* Luz rosa */}
 
           <motion.div
-            className="absolute bottom-0 left-0 h-[500px] w-[500px] rounded-full bg-pink-500/40 blur-[120px]"
+            className="pointer-events-none absolute bottom-0 left-0 h-[500px] w-[500px] rounded-full bg-pink-500/40 blur-[120px]"
             animate={{
               x: [0, 40, -20, 0],
               y: [0, -30, 20, 0],
@@ -42,7 +42,7 @@ function App() {
           />
           {/* Luz azul */}
           <motion.div
-            className="absolute top-40 right-0 h-[600px] w-[600px] rounded-full bg-blue-400/35 blur-[140px]"
+            className="pointer-events-none absolute top-40 right-0 h-[600px] w-[600px] rounded-full bg-blue-400/35 blur-[140px]"
             animate={{
               x: [0, -50, 30, 0],
               y: [0, 20, -40, 0],

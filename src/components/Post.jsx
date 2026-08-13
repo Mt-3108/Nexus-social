@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const Post = ({width}) => {
+const Post = ({ width }) => {
   const [expanded, setExpanded] = useState(false);
 
   useEffect(() => {

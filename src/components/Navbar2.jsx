@@ -17,7 +17,7 @@ const Navbar2 = () => {
         <Bell className="w-20 h-20" />
       </Link>
       <Link to="/chatbot">
-          <Bot className="w-20 h-20" />
+        <Bot className="w-20 h-20" />
       </Link>
     </div>
   );

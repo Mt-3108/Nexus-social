@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div>
       <Navbar />
-      <div className="relative z-10 min-h-screen flex flex-col text-center justify-center items-center gap-10">
+      <div className="relative z-50 min-h-screen flex flex-col text-center justify-center items-center gap-10">
         {/* Conteúdo */}
         <Post width={"w-[80%]"} />
         <Post width={"w-[80%]"} />
